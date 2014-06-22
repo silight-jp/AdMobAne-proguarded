@@ -204,7 +204,7 @@ AutoShow Option [Optional]
 - This option allow to automatically show the banner one it is loaded.
 The default value is set to false, so you can load the banner in cache and show it only on specific application phases
 ```javascript
-adMobManager.createBannerAbsolute(AdMobSize.BANNER,AdMobPosition.BOTTOM_CENTER,"BottomBanner1", null, true);
+adMobManager.createBanner(AdMobSize.BANNER,AdMobPosition.BOTTOM_CENTER,"BottomBanner1", null, true);
 ```
 
 Create an AdMob Banner in an absolute Position
