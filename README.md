@@ -65,10 +65,10 @@ iOS: AdMob SDK 6.8
 
 ##Further Info:
 Android:
-The Extension is build using the latest Google Play service library which will guaranty the application approval also after 01 Aug. 2014
+The Extension is build using the latest Google Play service (rev.17) library which will guaranty the application approval also after 01 Aug. 2014
 
 iOS:
-The Extension is build using the latest 6.8 AdMob SDK, in xCode 5.1.1 using iOS SDK 7.1.which will guaranty the apple store approval for the application by Apple.
+The Extension is build using the latest 6.9.3 AdMob SDK, in xCode 5.1.1 using iOS SDK 7.1.which will guaranty the apple store approval for the application by Apple.
 
 ##Device Compatibility:
 Android: From version 2.2
@@ -411,6 +411,6 @@ Add the following settings in <manifest> tag.
 
 Add the following settings in <application> tag.
 ```xml
-<meta-data android:name="com.google.android.gms.version" android:value="4323000"/>
+<meta-data android:name="com.google.android.gms.version" android:value="4452000"/>
 <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 ```
