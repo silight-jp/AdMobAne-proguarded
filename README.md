@@ -60,8 +60,8 @@ BOTTOM_RIGHT
 - Full Extension Documentation in /Documentation
 
 ##Admob SDK Details
-Android: Latest 4.3 Google Play services Library
-iOS: AdMob SDK 6.8
+Android: Latest 4.3 Google Play services Library (rev.17)
+iOS: AdMob SDK 6.9.3
 
 ##Further Info:
 Android:
