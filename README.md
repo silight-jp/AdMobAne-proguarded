@@ -400,6 +400,6 @@ BANNER_LEFT_APPLICATION // The banner has been remove from the application
 INTERSTITIAL_LOADED // The Interstitial has been received and it is ready to be show (iOS will be show directly)
 INTERSTITIAL_FAILED_TO_LOAD // There was an error with the Interstitial request. most of the time, it is a wrong adMobId or missing connection
 INTERSTITIAL_AD_OPENED // The Interstitial has been clicked by the user
-INTERSTITIAL_AD_CLOSED // The User left the Interstitial destination (webpage/store) and is returning to the application
-INTERSTITIAL_LEFT_APPLICATION // The Interstitial has been remove from the application (especially useful for listen when the user close the Interstitial)
+INTERSTITIAL_AD_CLOSED // The Interstitial has been remove from the application (especially useful for listen when the user close the Interstitial)
+INTERSTITIAL_LEFT_APPLICATION // The User left the Interstitial destination (webpage/store) and is returning to the application
 ```
