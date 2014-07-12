@@ -1,16 +1,25 @@
 ANE Packages
 =========
 
-In this folder are available the pre-builded Ane Packages.
+Here are available all packages for the latest and previous version of AdMobAne.
+Since AdMob SDK has deprecated support for iOS 4.3 (https://developers.google.com/mobile-ads-sdk/docs/rel-notes#ios), i decide to keep available also the previous version.
+In this way if a specific application needs to target iOS 4.3 it will always available the package.
 
-There are two option folder available:
-- Standard
-- Mediation
+##Version 1.7:
+- SDK Used:
+Android: Google Play services ver. 5.0
+iOS: Admob SDK 6.9.3
 
-The standard folder includes all the packages which will work exclusively with AdMob network without any support for mediation.
-All builds in the Standard Folder are stable releases.
-
-The Mediation folder includes a collection of packages which enables the mediation for specific networks.
-Please note that the packages in the Mediation folder are still in beta phase and it is not advised to use it in production builds.
+- Device Compatibility:
+Android: From version 2.2
+iOS: From version 5.0
 
 
+##Version 1.6:
+- SDK Used:
+Android: Google Play services ver. 4.3
+iOS: Admob SDK 6.8.0
+
+- Device Compatibility:
+Android: From version 2.2
+iOS: From version 4.3
