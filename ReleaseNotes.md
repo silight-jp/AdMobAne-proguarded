@@ -1,6 +1,10 @@
 Admob ANE Release Notes
 =========
 
+##Version 1.7.5
+- Fixed Interstitial Show Method in iOS
+Now Interstitial can be create and show manually when needed.
+
 ##Version 1.7.0
 - Updated Android SDK to Google Play Services ver.5.0
 - Updated iOS SDK to 6.9.3

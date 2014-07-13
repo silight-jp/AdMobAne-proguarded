@@ -60,8 +60,8 @@ BOTTOM_RIGHT
 - Full Extension Documentation in /Documentation
 
 ##Admob SDK Details
-- Version 1.7: Android: Google Play services ver. 5.0, iOS: Admob SDK 6.9.3
-- Version 1.6: Android: Google Play services ver. 4.3, iOS: Admob SDK 6.8.0
+- Android: Google Play services ver. 5.0
+- iOS: Admob SDK 6.9.3 (Admob SDK 6.8.0 in iOS 4.3 compatible version)
 
 ##Further Info:
 Android:
@@ -72,7 +72,7 @@ The Extension is build using the latest 6.9.3 AdMob SDK, in xCode 5.1.1 using iO
 
 ##Device Compatibility:
 Android: From version 2.2
-iOS: From version 4.3 (ver1.6), From version 5.0 (ver1.7)
+iOS: From version 4.3
 
 ##Install the library
 
@@ -402,4 +402,22 @@ INTERSTITIAL_FAILED_TO_LOAD // There was an error with the Interstitial request.
 INTERSTITIAL_AD_OPENED // The Interstitial has been clicked by the user
 INTERSTITIAL_AD_CLOSED // The Interstitial has been remove from the application (especially useful for listen when the user close the Interstitial)
 INTERSTITIAL_LEFT_APPLICATION // The User left the Interstitial destination (webpage/store) and is returning to the application
+```
+
+##Setup for Android
+
+Update Your Application Descriptor
+
+You'll need to be using the AIR 3.1 SDK or higher, include the extension in your Application Descriptor XML, and update the Android Manifest Additions with additional settings.
+
+Add the following settings in <manifest> tag.
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
+
+Add the following settings in <application> tag.
+```xml
+<meta-data android:name="com.google.android.gms.version" android:value="4452000"/>
+<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 ```
