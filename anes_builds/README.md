@@ -15,3 +15,7 @@ The only difference is that the build uses AdMob SDK 6.8.0 for iOS which preserv
 
 Please see: https://developers.google.com/mobile-ads-sdk/docs/rel-notes#ios
 for further details.
+
+In the Folder: No_GooglePlay_Lib
+Are available the same packages without the Google Play Library included.
+These packages are aimed for solve the problem of duplicated library on project which use more than one ANE which includes the Google Play Library.
