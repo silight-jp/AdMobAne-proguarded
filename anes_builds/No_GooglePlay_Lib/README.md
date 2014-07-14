@@ -49,7 +49,7 @@ Example:
 
 All packages are update to the last build (version 1.7.5)
 - SDK Used:
-Android: Google Play services ver. 5.0
+Android: (not included)
 iOS: Admob SDK 6.9.3
 
 This version is not compatible with iOS 4.3.
