@@ -1,3 +1,6 @@
+##Notice:
+For internal Maintenance the ANE Extension updates and issues handling will be postponed to Tuesday 5th August
+
 Admob Native Extension for Adobe Air
 =========
 
